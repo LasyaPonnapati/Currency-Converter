@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-style: sans-serif;
+}
+body{
+    background-color: rgb(25, 41, 88);
+}
+.main-sec{
+    background-color: white;
+    display: inline-block;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    top: 188px;
+    left: 500px;
+}
+.main-sec h1{
+    font-size: 30px;
+}
+.main-sec h5{
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+}
+.amount{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.text{
+    font-size: 20px;
+    font-weight: 500;
+}
+.amount input{
+    padding-left: 5px;
+    width: 360px;
+    height: 30px;
+    border-radius:7px;
+    border: 2px solid rgb(136, 136, 136);
+}
+.amount input:focus{
+    outline:none;
+    border: 2px solid rgb(25, 41, 88);
+}
+.from-to{
+    display: flex;
+    padding-bottom: 30px;
+    gap: 20px;
+}
+.from select{
+    height: 30px;
+    width: 140px;
+    border: none;
+    border-radius: 7px;
+}
+.to select{
+    height: 30px;
+    width: 140px;
+    border: none;
+    border-radius: 7px;
+}
+.from select:focus{
+    outline: none;
+}
+.to select:focus{
+    outline: none;
+}
+#from-img{
+    /* by default images are inline in html which makes them have extra padding (baseline alignment) so we have to amke them inline-block or block*/
+    display: inline-block;
+    vertical-align: middle;
+    height: 25px;
+    width: 25px;
+    border-radius: 10px;
+}
+#to-img{
+    display: inline-block;
+    vertical-align: middle;
+    height: 25px;
+    width: 25px;
+    border-radius: 10px;
+}
+.border{
+    border: 2px solid rgb(136, 136, 136);
+    border-radius: 7px;
+    padding-left: 3px;
+}
+#btn{
+    margin-top: 30px;
+    height: 35px;
+    width: 130px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(152, 166, 208);
+    font-size: 16px;
+}
+.hide{
+    display: none;
+}
